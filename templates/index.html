@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<main role="main">
+    <form action="/registration" method="POST">
+        Регистрация:<br>
+        <input type="email" name="email" placeholder="Введите email"><br>
+        <input type="password" name="password" placeholder="Введите пароль"><br>
+        <input type="submit" value="Отправить">
+    </form>
+    <hr>
+  </div>
+</main>
+{% endblock %}
